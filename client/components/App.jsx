@@ -5,6 +5,7 @@ import Home from './Home'
 //COMPONENTS
 import Body from './Body'
 import Workouts from './BodyPart'
+import Exercise from './Exercise'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
     <h1>React development has begun!</h1>
     <Body/>
     <Route path='/:bodyPart' component={Workouts} />
+    <Route path='/:bodyPart/:exercise' component={Exercise} />
 
     </>
   )
