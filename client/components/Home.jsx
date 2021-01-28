@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BodyParts from './BodyParts'
+// import BodyParts from './BodyParts'
 
 function Home () {
     return (

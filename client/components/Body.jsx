@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../../data/bodyPartDatabase'
+import { Link } from 'react-router-dom'
 
 
 function Body (prop) { 
@@ -12,7 +13,7 @@ function Body (prop) {
                     {bodyPartNames.map(bodyPart => {
                         return (
                             <li key={bodyPart}>
-                                {bodyPart}
+                                <Link to={`/${bodyPart}`}>{bodyPart}</Link>
                             </li>
                         )
                     })}
