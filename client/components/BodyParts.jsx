@@ -1,8 +1,8 @@
 import React from 'react'
 
-import bodyParts from '../../bodyPartDatabase'
+// import bodyParts from '../../bodyPartDatabase'
 
-function Body(props) {
+function BodyPart(props) {
     console.log(props)
 
     return (
@@ -17,4 +17,4 @@ function Body(props) {
     )
 }
 
-export default bodyParts
+// export default bodyParts
