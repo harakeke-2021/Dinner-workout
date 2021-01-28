@@ -11,7 +11,7 @@ function Body (prop) {
             <ul>
                     {bodyPartNames.map(bodyPart => {
                         return (
-                            <li>
+                            <li key={bodyPart}>
                                 {bodyPart}
                             </li>
                         )
