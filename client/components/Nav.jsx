@@ -2,7 +2,6 @@ import React from 'react'
 const nav = {
   display: 'flex',
   justifyContent: 'space-between'
-  
 }
 
 const navLink = {
