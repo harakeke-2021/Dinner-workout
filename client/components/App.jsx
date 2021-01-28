@@ -5,6 +5,9 @@ import Home from './Home'
 // COMPONENTS
 import Body from './Body'
 
+import Workouts from './BodyPart'
+import Exercise from './Exercise'
+
 const zero = {
   margin: '0',
   fontFamily: 'Arial, Helvetica, sans-serif',
@@ -24,6 +27,9 @@ const App = () => {
       <section style={container}>
         <Body/>
         <Route exact path='/' component={Home} />
+
+        <Route path='/:bodyPart' component={Workouts} />
+        <Route path='/:bodyPart/:exercise' component={Exercise} />
       </section>
     </div>
   )
