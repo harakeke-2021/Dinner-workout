@@ -1,8 +1,19 @@
 import React from 'react'
 
+import Nav from './Nav'
+
+const zero = {
+  margin: '0',
+  fontFamily: 'Arial, Helvetica, sans-serif',
+  border: 'solid'
+}
+
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <div style={zero}>
+      <Nav />
+
+    </div>
   )
 }
 
