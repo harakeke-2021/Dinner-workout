@@ -4,7 +4,7 @@ import Home from './Home'
 
 //COMPONENTS
 import Body from './Body'
-import Workouts from './Workouts'
+import Workouts from './BodyPart'
 
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
 
     <h1>React development has begun!</h1>
     <Body/>
-    <Route path='/workouts' component={Workouts} />
+    <Route path='/:bodyPart' component={Workouts} />
 
     </>
   )
