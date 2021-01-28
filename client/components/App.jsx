@@ -5,22 +5,27 @@ import Home from './Home'
 // COMPONENTS
 import Body from './Body'
 
-import Nav from './Nav'
-
 const zero = {
   margin: '0',
   fontFamily: 'Arial, Helvetica, sans-serif',
-  border: 'solid'
+  border: 'solid',
+  height: '100%'
+}
+
+const container = {
+  width: '70%',
+  margin: '0 auto'
 }
 
 const App = () => {
   return (
+    // div and section is for styling
     <div style={zero}>
-      <Route exact path='/' component={Home} />
-      <Nav />
-      <Body/>
+      <section style={container}>
+        <Body/>
+        <Route exact path='/' component={Home} />
+      </section>
     </div>
-
   )
 }
 
