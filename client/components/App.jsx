@@ -29,7 +29,8 @@ const App = () => {
         <Route exact path='/' component={Home} />
 
         <Route exact path='/:bodyPart' component={Workouts} />
-        <Route exact path='/:bodyPart/:exercise' component={Exercise} />
+        <Route path='/:bodyPart/:exercise' component={Exercise} />
+
       </section>
     </div>
   )
