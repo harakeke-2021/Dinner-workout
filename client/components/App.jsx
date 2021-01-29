@@ -11,15 +11,13 @@ import Exercise from './Exercise'
 const App = () => {
   return (
     <>
+      <StarRating/>
+      <Route exact path='/' component={Home} />
 
-
-    <Route exact path='/' component={Home} />
-
-    <h1>React development has begun!</h1>
-    <Body/>
-    <Route path='/:bodyPart' component={Workouts} />
-    <Route path='/:bodyPart/:exercise' component={Exercise} />
-
+      <h1>React development has begun!</h1>
+      <Body/>
+      <Route path='/:bodyPart' component={Workouts} />
+      <Route path='/:bodyPart/:exercise' component={Exercise} />
 
     </>
   )
