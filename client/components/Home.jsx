@@ -3,16 +3,17 @@ import React from 'react'
 // import BodyParts from './BodyParts'
 
 const centerLeft = {
-  paddingTop: '20%'
+  paddingTop: '20vh'
 }
 
 const spacing = {
   marginBottom: '0',
-  fontSize: '35px'
+  fontSize: '40px'
 }
 
 const hook = {
-  fontSize: '40px'
+  fontSize: '40px',
+  marginTop: '5px'
 }
 function Home () {
   return (
