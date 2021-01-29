@@ -4,8 +4,13 @@ const body = {
             id: 1,
             name: 'Hammer Curls',
             description: 'Hold a dumbbell in each hand with palms facing your sides and arms extended straight down. Keeping your upper arms against your sides, curl both weights at the same time, minimizing momentum used during the curl.',
+<<<<<<< HEAD
             tips: ['make sure bummbell are parallel to body',  'hello'],
             image: 'https://www.mensjournal.com/wp-content/uploads/mf/_main_hammercheatcurl.jpg?quality=86&strip=all'
+=======
+            image: 'https://www.mensjournal.com/wp-content/uploads/mf/_main_hammercheatcurl.jpg?quality=86&strip=all',
+            tip: 'Keep your body straight and your elbows locked into your sides throught the sets'
+>>>>>>> main
         },
         {
             id: 2,
@@ -88,7 +93,7 @@ const body = {
             id: 4,
             name: 'Incline Dumbbell Press',
             description: 'Set an adjustable bench to a 30°-45° angle and lie back on it with a dumbbell in each hand at shoulder-level. Press the weights over your chest.',
-            image: 'https://www.mensjournal.com/wp-content/uploads/mf/incline_dumbbell_press_pos_b_1.jpg?quality=86&strip=all'
+            image: 'https://www.mensjournal.com/wp-content/uploads/mf/incline_dumbbell_press_pos_b_1.jpg?quality=86&strip=all',
         },
         {
             id: 5,
