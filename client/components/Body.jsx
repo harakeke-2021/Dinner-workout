@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import data from '../../data/bodyPartDatabase'
 import { Link } from 'react-router-dom'
 
@@ -23,9 +23,22 @@ const aTag = {
   color: 'black'
 }
 
+const bodyImg = {
+  width: '10vh',
+  alignItems: 'baseline'
+}
+
 // export default Body
 function Body (prop) {
   const bodyPartNames = Object.keys(data)
+
+  const img = './images/blank.png'
+
+  const [image, changeImage] = useState(img)
+
+  function handleImage (part) {
+    changeImage(`./images/${part}.png`)
+  }
 
   return (
     <div style={nav}>
@@ -34,11 +47,12 @@ function Body (prop) {
       <ul style={navUl}>
         {bodyPartNames.map(bodyPart => {
           return (
-            <li style={navLink} key={bodyPart}>
+            <li style={navLink} key={bodyPart} onMouseEnter={ () => handleImage(bodyPart)}>
               <Link to={`/${bodyPart}`} style={aTag}>{bodyPart}</Link>
             </li>
           )
         })}
+        <img src={image} style={bodyImg} />
       </ul>
     </div>
   )

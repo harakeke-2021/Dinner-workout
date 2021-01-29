@@ -22,7 +22,6 @@ function BodyPart (props) {
   const bodyPart = props.match.params.bodyPart
   const workouts = body[bodyPart]
 
-  console.log(workouts)
   return (
     <>
       <ul style={ulStyle}>

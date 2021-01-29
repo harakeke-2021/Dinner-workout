@@ -1,23 +1,23 @@
-import React from 'react'
+// import React from 'react'
 
-import bodyParts from '../../bodyPartDatabase'
+// import bodyParts from '../../bodyPartDatabase'
 
-const ulStyle = {
-  paddingLeft: '0'
-}
+// const ulStyle = {
+//   paddingLeft: '0'
+// }
 
-function Body (props) {
-  console.log(props)
-  return (
-    <div>
-      <h2>Body Parts</h2>
-      <ul style={ulStyle}>
-        {
+// function Body (props) {
+//   console.log(props)
+//   return (
+//     <div>
+//       <h2>Body Parts</h2>
+//       <ul style={ulStyle}>
+//         {
 
-        }
-      </ul>
-    </div>
-  )
-}
+//         }
+//       </ul>
+//     </div>
+//   )
+// }
 
-export default bodyParts
+// export default bodyParts

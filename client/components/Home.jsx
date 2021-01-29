@@ -3,7 +3,9 @@ import React from 'react'
 // import BodyParts from './BodyParts'
 
 const centerLeft = {
-  paddingTop: '20vh'
+  marginTop: '20vh',
+  border: 'solid black',
+  padding: '0 33.2px'
 }
 
 const spacing = {
@@ -17,10 +19,12 @@ const hook = {
 }
 function Home () {
   return (
-    <div style={centerLeft}>
-      <h1 style={spacing}>WHY LOOK LIKE A SNACK</h1>
-      <h2 style={hook}>WHEN YOU CAN LOOK LIKE THE MAIN MEAL</h2>
-    </div>
+    <section>
+      <div style={centerLeft}>
+        <h1 style={spacing}>WHY LOOK LIKE A SNACK</h1>
+        <h2 style={hook}>WHEN YOU CAN LOOK LIKE THE MAIN MEAL</h2>
+      </div>
+    </section>
   )
 }
 
