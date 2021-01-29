@@ -1,9 +1,10 @@
 const body = {
-    arms: [
+    Arms: [
         {
             id: 1,
             name: 'Hammer Curls',
             description: 'Hold a dumbbell in each hand with palms facing your sides and arms extended straight down. Keeping your upper arms against your sides, curl both weights at the same time, minimizing momentum used during the curl.',
+            tips: ['make sure bummbell are parallel to body',  'hello'],
             image: 'https://www.mensjournal.com/wp-content/uploads/mf/_main_hammercheatcurl.jpg?quality=86&strip=all'
         },
         {
@@ -32,7 +33,7 @@ const body = {
         },
        
     ],
-    legs: [
+    Legs: [
         {
         id: 1,
         name: 'Front Squat',
@@ -64,7 +65,7 @@ const body = {
         image: 'https://www.mensjournal.com/wp-content/uploads/mf/_main_deadlift_1.jpg?quality=86&strip=all'
     },
     ],
-    chest: [
+    Chest: [
         {
             id: 1,
             name: 'Barbell Bench Press',
@@ -96,7 +97,7 @@ const body = {
             image: 'https://www.mensjournal.com/wp-content/uploads/mf/1280-dumbbell-flye.jpg?quality=86&strip=all'
         },
     ],
-    back: [
+    Back: [
         {
             id: 1,
             name: 'Weighted Pullup',
@@ -128,7 +129,7 @@ const body = {
             image: 'https://www.mensjournal.com/wp-content/uploads/mf/30-best-back-workouts-yates-row.jpg?quality=86&strip=all'
         },
     ],
-    core: [
+    Core: [
         {
             id: 1,
             name: 'Arms-High Partial Situp',
