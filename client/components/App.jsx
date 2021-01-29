@@ -5,23 +5,34 @@ import Home from './Home'
 // COMPONENTS
 import Body from './Body'
 
-
 import Workouts from './BodyPart'
 import Exercise from './Exercise'
+
+const zero = {
+  margin: '0',
+  fontFamily: 'Arial, Helvetica, sans-serif',
+  border: 'solid',
+  height: '100%'
+}
+
+const container = {
+  width: '70%',
+  margin: '0 auto'
+}
+
 const App = () => {
   return (
-    <>
+    // div and section is for styling
+    <div style={zero}>
+      <section style={container}>
+        <Body/>
+        <Route exact path='/' component={Home} />
 
+        <Route exact path='/:bodyPart' component={Workouts} />
+        <Route path='/:bodyPart/:exercise' component={Exercise} />
 
-    <Route exact path='/' component={Home} />
-
-    <h1>React development has begun!</h1>
-    <Body/>
-    <Route path='/:bodyPart' component={Workouts} />
-    <Route path='/:bodyPart/:exercise' component={Exercise} />
-
-
-    </>
+      </section>
+    </div>
   )
 }
 
