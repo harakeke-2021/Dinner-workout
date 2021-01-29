@@ -5,10 +5,7 @@ import Home from './Home'
 // COMPONENTS
 import Body from './Body'
 
-<<<<<<< HEAD
-=======
-// import StarRating from './StarRating'
->>>>>>> main
+
 import Workouts from './BodyPart'
 import Exercise from './Exercise'
 const App = () => {
