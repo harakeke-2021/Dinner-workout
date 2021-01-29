@@ -1,16 +1,16 @@
-import React from 'react'
-const emoji = require('node-emoji')
+// import React from 'react'
+// const emoji = require('node-emoji')
 
-const star = {
+// const star = {
 
-}
+// }
 
-const StarRating = () => {
-  return (
+// const StarRating = () => {
+//   return (
 
-    <i style={star}className="fas fa-star"></i>
+//     <i style={star}className="fas fa-star"></i>
 
-  )
-}
+//   )
+// }
 
-export default StarRating
+// export default StarRating
